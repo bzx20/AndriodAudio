@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AndroidAudio</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="permission_help">请授予应用录音权限（麦克风）</string>
+
+    <string name="start_record_help">开始录音</string>
+    <string name="stop_record_help">已停止录音</string>
+
+    <string name="start_play_help">开始播放录制的音频</string>
+    <string name="stop_play_help">停止播放录制的音频</string>
+    <string name="play_error_help">没有已录制的音频文件</string>
+
+    <string name="setting">设置</string>
+    <string name="play">播放</string>
+    <string name="stop">停止</string>
+    <string name="record">录制</string>
+    <string name="stop_record">停止录制</string>
+    <!-- Preference Titles -->
+    <string name="modulation_header">调制设置</string>
+    <string name="fsk_modulation_header">FSK调制设置</string>
+    <string name="test_header">测试设置</string>
+
+    <!-- Modulation Preferences -->
+    <string name="carrier_frequency_title">载波频率(Hz)</string>
+    <string name="modulation_title">调制方式</string>
+    <string name="fsk_frequency_deviation">调制频偏(Hz)</string>
+    <string name="fsk_symbol_period">符号周期(s)</string>
+
+
+    <!-- Test Preferences -->
+    <string name="frequency_title">声波频率</string>
+    <string name="title_activity_demod">DemodActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

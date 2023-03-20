@@ -1,0 +1,35 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    
+    <string-array name="modulation_entries">
+        <item>FSK</item>
+        <item>PSK</item>
+    </string-array>
+
+    <string-array name="modulation_values">
+        <item>FSK</item>
+        <item>PSK</item>
+    </string-array>
+
+
+    <string-array name="frequency_entries">
+        <item>4000</item>
+        <item>8000</item>
+        <item>12000</item>
+    </string-array>
+
+    <string-array name="frequency_values">
+        <item>4000</item>
+        <item>8000</item>
+        <item>12000</item>
+    </string-array>
+</resources>

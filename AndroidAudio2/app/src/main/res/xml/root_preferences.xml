@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/modulation_header">
+
+        <EditTextPreference
+            app:defaultValue="6000"
+            app:key="carrier_frequency"
+            app:title="@string/carrier_frequency_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="FSK"
+            app:entries="@array/modulation_entries"
+            app:entryValues="@array/modulation_values"
+            app:key="modulation"
+            app:title="@string/modulation_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/fsk_modulation_header">
+        <EditTextPreference
+            app:defaultValue="1000"
+            app:key="fsk_frequency_deviation"
+            app:singleLine="true"
+            app:title="@string/fsk_frequency_deviation"
+            app:useSimpleSummaryProvider="true"
+            />
+
+        <EditTextPreference
+            android:defaultValue="0.1"
+            android:key="fsk_symbol_period"
+            android:singleLine="true"
+            android:title="@string/fsk_symbol_period"
+            app:useSimpleSummaryProvider="true"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
